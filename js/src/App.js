@@ -33,10 +33,6 @@ export class App{
       this._scene.update();
       requestAnimationFrame(this._update);
       this._renderer.render(this._scene, this._scene.camera);
-
-      this._scene.scene = 3;
-      this._scene.camera = this._scene._persCamera;
-
     }
 
     _onResize() {
